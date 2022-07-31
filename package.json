@@ -1,0 +1,19 @@
+{
+  "name": "meeting-workflow",
+  "version": "1.0.0",
+  "description": "UI components to make daily meetings better",
+  "main": "./build/main.js",
+  "scripts": {
+    "prebuild:roam": "npm install",
+    "build:roam": "roamjs-scripts build --depot",
+    "dev:roam": "roamjs-scripts dev --depot",
+    "start": "roamjs-scripts dev"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "roamjs-scripts": "^0.21.5"
+  },
+  "dependencies": {
+    "roamjs-components": "^0.70.18"
+  }
+}
